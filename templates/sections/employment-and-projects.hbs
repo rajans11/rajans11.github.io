@@ -1,0 +1,24 @@
+
+    <div class="skycom-12 alpha">
+      <h2>{{title}}</h2>
+      <ul class="skycom-12 project">
+        <li><strong><p class="intro smaller  skycom-8">Open Source Contributions</p></strong></li>
+      </ul>
+
+      {{#each projects}}
+        <ul class="skycom-12 project">
+          <li><strong><p class="intro smaller  skycom-8">{{date}}</p></strong></li>
+          <li><strong><span class="skycom-3 alpha">Project</span><span class="skycom-9">{{name}}</span></strong></li>
+          {{#if tech}}
+          <li><strong><span class="skycom-3 alpha">Technologies</span><span class="skycom-9">{{tech}}</span></strong></li>
+          {{/if}}
+          {{#if practices}}
+            <li><strong><span class="skycom-3 alpha">Practices</span><span class="skycom-9">{{practices}}</span></strong></li>
+          {{/if}}
+        </ul>
+        <p>{{description}}</p>
+        <ul class="bullet  skycom-12">
+          {{#each detail}} <li>{{this}}</li> {{/each}}
+        </ul>
+      {{/each}}
+    </div>

@@ -1,0 +1,59 @@
+projects:
+
+  - name: Hafton New
+    date: "April '16 - July '16"
+    tech: Javascript <span class=inactive>(build and CLI)</span>, AWS S3, Jenkins
+    description: Replatformed furniture for Outnet.com (header, footer, common libraries and features across the site)
+    detail:
+      - Resulted in a smaller code base, build and deployment of changes were live within 3 minutes
+      - Code base created static assets on AWS S3 for pages to consume.
+      - Created an isomorphic Javascript library for client projects and distributed via npm
+      - Project contained dynamic server for testing as well as end-to-end testing of static assets
+
+  - name: Hafton
+    date: "April '16 - July '16"
+    tech: Javascript <span class=inactive>(build and CLI)</span>, AWS S3, Jenkins
+    description: Replatformed furniture for Outnet.com (header, footer, common libraries and features across the site)
+    detail:
+      - Resulted in a smaller code base, build and deployment of changes were live within 3 minutes
+      - Code base created static assets on AWS S3 for pages to consume.
+      - Created an isomorphic Javascript library for client projects and distributed via npm
+      - Project contained dynamic server for testing as well as end-to-end testing of static assets
+
+  - name: preston.hemtech.io
+    date: "Feb '16 - Sep '16"
+    tech: Sass (animations, grid, iconography), Javascript <span class=inactive>(ES6, Koa.js, Angular.js, build and CLI)</span>, Heroku, Travis CI, open source
+    description: Style guide for Outnet.com
+    detail:
+      - Created style guide for Outnet.com with close collaboration with designers
+      - Highly automated pipeline allowed continuous delivery of consistant style changes across the entire site
+      - Managed planning, development and delivery/distribution methods (bower, npm, git) as well as integrating across the site
+
+  - name: www.outnet.com
+    date: "June '15 - Feb '16"
+    tech: Javascript <span class=inactive>(ES6, vanilla, single-page app)</span>, Sass, Java, MySQL
+    description: Listing page application for Outnet.com
+    detail:
+      - Single-page app, heavily optimised for SEO (crawlable, performant, responsive)
+      - Experience included dynamic filters, lazy-loading, infinite scroll, detail view, managed content blocks
+      - Led the front-end development for the page, including coaching, code reviewing, technical direction and planning
+
+  - name: Brixton
+    date: "Feb '15 - June '15"
+    tech: Javascript <span class=inactive>(ES6, Node.js, Angular.js, Koa.js)</span>, Jasmine <span class=inactive>(chai, sinon)</span>, Git
+    description: CMS system for content changes on the Outnet.com homepage and campaign pages
+
+  - name: broadbandshield.sky.com
+    date: "June '13 - May '14"
+    tech: Ruby <span class=inactive>(Sinatra, rest-client)</span>, Javascript <span class=inactive>(CoffeeScript, Backbone.js, jQuery, underscore)</span> Cucumber, HTML, Sass, MongoDB
+    description: Broadband Shield is a solution for parents concerned about the content their family is viewing online.
+
+  - name: myaccount.sky.com/bill
+    date: "April '13 - November '13"
+    tech: Java <span class=inactive>(Spring MVC, Jersey, Xmlbeans)</span>, Cucumber, HTML, Sass, TeamCity, IntelliJ
+    description: Redesign the online bill to make the bill more accessible and easier to understand by displaying the most important information, and to use analytics to target problems to address.
+
+  - name: MCS
+    date: "Feb '12 - April '13"
+    tech: Java <span class=inactive>(Spring, Jersey, Xmlbeans, Jackson, HTTP and JMS)</span>, Linux, Cassandra, Oracle
+    description: Created dynamic web services and a RESTful API for internal clients for customer and product data, accessed through databases and legacy services.
