@@ -9,6 +9,7 @@ const templateData = Object.assign({}, ...[
     './data/employment.yaml',
     './data/personal-details.yaml',
     './data/academics.yaml',
+    './data/technical-skills.yaml',
     './data/summary.yaml'
   ].map((file) => yaml.safeLoad(fs.readFileSync(file, 'utf8')))
 );

@@ -1,19 +1,6 @@
 summary:
   - detail: Rajan is a keen, hardworking and driven individual with the enthusiasm for learning new skills and implementing new ideas. A confident, self-motivated team player, who actively takes up challenges that tests his capability and judgement in a time pressurised environments. He has strong technical knowledge of various system paired with good understanding of business processes and can adapt situations quickly. He is a driven individual who actively seeks to further my professional career at any given opportunity.
-    list:
-      - heading: Client-side
-        contents: JavaScript <span class="inactive">(ES6, vanilla, React, Angular, Ember, jQuery, progressive web apps)</span>, CSS <span class="inactive">(sass, style guides, animations, cross-browser)</span>, high performance techniques, single-page apps
-      - heading: Server-side
-        contents: Node.js, Ruby, Java, http, MQ, caching
-      - heading: Database
-        contents: MySQL, Mongo, Git
-      - heading: Build and delivery
-        contents: Build scripts <span class="inactive">(bash, Gulp, etc.)</span>, CI <span class="inactive">(Jenkins, TeamCity, Travis, Circle)</span>, distributables <span class="inactive">(npm, RPM, static site delivery)</span>, expert on Git
-      - heading: Networking and Hosting
-        contents: AWS <span class="inactive">(S3, EC2, Route 53, Lambda)</span>, Heroku, Apache http, Tomcat, Nginx, load balancing, CDN
-      - heading: Dev Ops
-        contents: Logging and monitoring solutions <span class="inactive">(splunk, App Dynamics, New Relic)</span>, familiar with puppet and docker, bash, remote access
-  - detail: Experienced coach and team lead, able to upskill teams on cutting-edge technology and practices, good speaker and presenter. Excellent pair programmer, and experienced in multiple disciplines (UX & design, testers, clients, delivery and management). Able to apply techniques such as TDD, OOP, polyglot development, effective simplifying and planning.
+  - detail: Experienced coach and team lead, able to upskill teams on cutting-edge technology and practices, good speaker and presenter. Experienced in multiple disciplines (testing, development, devops, delivery and management). Able to apply techniques such as BDD & TDD development, effective simplifying and planning.
   - detail: Able to effectively transition into new and existing teams. Experienced in identifying and solving constraints by applying methodologies including lean principles, <strong>XP</strong>, <strong>Agile</strong>, <strong>MVP</strong> and <strong>TDD</strong> and <strong>BDD</strong>.
 
 

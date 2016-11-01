@@ -5,11 +5,11 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/damnhipster/technical-cv.git"
+    "url": "git+https://github.com/rajans11/rajans11.github.io.git"
   },
   "author": "",
   "license": "UNLICENCED",
-  "homepage": "https://github.com/damnhipster/technical-cv#readme",
+  "homepage": "https://github.com/rajans11/rajans11.github.io#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-compile-handlebars": "^0.6.1",
