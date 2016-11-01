@@ -1,4 +1,6 @@
-academics:
+qualifications:
+  - description: Google Cloud Certified - Professional Cloud Developer
+    date: "Mar '23"
   - description: Certified ScrumMaster&reg;
     date: "Jan '16"
   - description: ITIL V3 Certificate in Foundation Level 

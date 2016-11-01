@@ -1,0 +1,43 @@
+skills:
+- heading: "Languages"
+  detail:
+    - contents: JVM based - Kotlin, Java
+    - contents: Frameworks - HTTP4k, Ktor, Spring Boot
+    - contents: Bash scripting / Python (Intermediate)
+
+- heading: "Deploying & Cloud"
+  detail:
+  - contents: Azure / Google Cloud Services
+  - contents: Docker
+  - contents: Kubernetes, Helm
+
+- heading: "Data"
+  detail:
+  - contents: Google Dataflow, BigQuery, Datastore & PubSub, Kafka
+  - contents: MySql, Azure DB & Postgres
+
+- heading: "Build / Build Tools / Development"
+  detail:
+  - contents: GitLab, Jenkins
+  - contents: Gradle, Maven, WebPack
+  - contents: Git, GitFlow
+
+- heading: "Logging & Monitoring"
+  detail:
+  - contents: ELK - Elastic Search / Kibana, Grafana, AlertManager
+  - contents: New Relic, App Dynamics, Splunk, Kibana, Prometheus
+  
+- heading: "Testing"
+  detail:
+  - contents: TDD, BDD and ATDD
+  - contents: K6, Gatling, Locust IO, Siege, Wrk & Apache ab
+  - contents: Security Automation with In-house Java Client to external tools like Nessus, Burp Suite, OWASP ZAP
+  - contents: Contrast Testing
+  - contents: Cypress
+
+- heading: "Other"
+  detail:
+  - contents: Slack API
+  - contents: Google Secret Manager, Hashicorp Vault, Kubeseal
+  - contents: Terraform / Terragrunt
+

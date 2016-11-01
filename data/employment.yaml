@@ -1,59 +1,150 @@
-projects:
+company:
+- name: Order Tiger
+  url: https://www.ordertiger.com/
+  location: Remote/London
+  role: "Technology Consultant (Private)"
+  date: "April '24 - Current"
+  description: An Online ordering system specialising in food and service delivery
 
-  - name: Hafton New
-    date: "April '16 - July '16"
-    tech: Javascript <span class=inactive>(build and CLI)</span>, AWS S3, Jenkins
-    description: Replatformed furniture for Outnet.com (header, footer, common libraries and features across the site)
-    detail:
-      - Resulted in a smaller code base, build and deployment of changes were live within 3 minutes
-      - Code base created static assets on AWS S3 for pages to consume.
-      - Created an isomorphic Javascript library for client projects and distributed via npm
-      - Project contained dynamic server for testing as well as end-to-end testing of static assets
+  projects:
+    - name: Order Tiger Backend
+      description: Providing consultancy and development / quality / devops and product review to improve product technically with a business mindset.
 
-  - name: Hafton
-    date: "April '16 - July '16"
-    tech: Javascript <span class=inactive>(build and CLI)</span>, AWS S3, Jenkins
-    description: Replatformed furniture for Outnet.com (header, footer, common libraries and features across the site)
-    detail:
-      - Resulted in a smaller code base, build and deployment of changes were live within 3 minutes
-      - Code base created static assets on AWS S3 for pages to consume.
-      - Created an isomorphic Javascript library for client projects and distributed via npm
-      - Project contained dynamic server for testing as well as end-to-end testing of static assets
+      detail:
+        - contents: Overall improvement to backend code base, implementing new features and integrations
+        - contents: Helping access new integrations being fit for purpose, integrating with payment gateway such as RyftPay.
+        - contents: Helping manage other channel streams with delivery such as front-end, mobile and email channels.
+        - contents: Keeping hosting and upgrades up to date on AWS
+        - contents: Liasing with potential clients giving technical and delivery input and managing expectations.
 
-  - name: preston.hemtech.io
-    date: "Feb '16 - Sep '16"
-    tech: Sass (animations, grid, iconography), Javascript <span class=inactive>(ES6, Koa.js, Angular.js, build and CLI)</span>, Heroku, Travis CI, open source
-    description: Style guide for Outnet.com
-    detail:
-      - Created style guide for Outnet.com with close collaboration with designers
-      - Highly automated pipeline allowed continuous delivery of consistant style changes across the entire site
-      - Managed planning, development and delivery/distribution methods (bower, npm, git) as well as integrating across the site
+- name: HMRC - CDIO
+  url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
+  location: Remote (Security Cleared)
+  role: "Engineering Consultant (Contract via EE)"
+  date: "Febuary '23 - Current"
+  description: UK Government HMRC going through the largest transformation in europe
 
-  - name: www.outnet.com
-    date: "June '15 - Feb '16"
-    tech: Javascript <span class=inactive>(ES6, vanilla, single-page app)</span>, Sass, Java, MySQL
-    description: Listing page application for Outnet.com
-    detail:
-      - Single-page app, heavily optimised for SEO (crawlable, performant, responsive)
-      - Experience included dynamic filters, lazy-loading, infinite scroll, detail view, managed content blocks
-      - Led the front-end development for the page, including coaching, code reviewing, technical direction and planning
+  projects:
+    - name: CDAP Upgrade
+      description: A team owning the re-platforming of services and tools as well as managing the cloudera migration.
 
-  - name: Brixton
-    date: "Feb '15 - June '15"
-    tech: Javascript <span class=inactive>(ES6, Node.js, Angular.js, Koa.js)</span>, Jasmine <span class=inactive>(chai, sinon)</span>, Git
-    description: CMS system for content changes on the Outnet.com homepage and campaign pages
+      detail:
+        - contents: Overall auditing of product microservices health, improving code, migrating pipelines from <span class="inactive">Jenkins</span> to <span class="inactive">GitLab</span>.
+        - contents: Working along side product teams to ensure they are all adhering to new platform standard in terms of security and assisting them in migrating configuration to <strong>Vault</strong>.
+        - contents: Assisting teams with performance testing applications in the new cluster.
+        - contents: Leading the strategy and implementation in ensuring dual running was possible between two clusters, ensuring minimal disruptions.
+        - contents: Setting example with workshops, pairing and spiking new tooling.
+        - contents: Encouraging a <strong>operability</strong> culture.
+        - contents: Improving operability configuring alerting and monitoring with AWS Cloud Watch.
 
-  - name: broadbandshield.sky.com
-    date: "June '13 - May '14"
-    tech: Ruby <span class=inactive>(Sinatra, rest-client)</span>, Javascript <span class=inactive>(CoffeeScript, Backbone.js, jQuery, underscore)</span> Cucumber, HTML, Sass, MongoDB
-    description: Broadband Shield is a solution for parents concerned about the content their family is viewing online.
+- name: John Lewis
+  url: https://www.johnlewispartnership.co.uk/about.html
+  location: London
+  role: "Engineering Consultant (Contract via EE)"
+  date: "October '18 - Febuary '23"
+  description: A british household retailer, where re-platforming, training partners and innovating in the online space has been opening new avenues online as well as maintaining strong customer relationships has been at the core technology values.
 
-  - name: myaccount.sky.com/bill
-    date: "April '13 - November '13"
-    tech: Java <span class=inactive>(Spring MVC, Jersey, Xmlbeans)</span>, Cucumber, HTML, Sass, TeamCity, IntelliJ
-    description: Redesign the online bill to make the bill more accessible and easier to understand by displaying the most important information, and to use analytics to target problems to address.
+  projects:
+    - name: Recommendations (July '22 - Feb '23)
+      description: A dynamic team owning the service from front to back ensuring customers are recommended products and servics with cutting-edge technologies.
 
-  - name: MCS
-    date: "Feb '12 - April '13"
-    tech: Java <span class=inactive>(Spring, Jersey, Xmlbeans, Jackson, HTTP and JMS)</span>, Linux, Cassandra, Oracle
-    description: Created dynamic web services and a RESTful API for internal clients for customer and product data, accessed through databases and legacy services.
+      detail:
+        - contents: Overall audit of service health, improving <strong>Kotlin (JVM)</strong> code, development processes and improving quality coverage.
+        - contents: Working along side data science building data pipelines <strong>(Google Dataflow / Cloud functions / Pubsub)</strong> and <strong>grafana</strong> dashboards. 
+        - contents: Strategic development approach for bringing in data models in-house away whilst migrating with no negative sales conversion.
+        - contents: Setting example with workshops, pairing and training for partners of the company.
+        - contents: Working with data engineers and scientists to implement and deploy models <strong>Google Vertex AI</strong>.
+        - contents: Encouraging a <strong>performance</strong> culture.
+        - contents: Encouraging a <strong>experimentation</strong> culture.
+        - contents: Managing and deploying our GCP products using <strong>Terraform</strong>
+
+    - name: Digital Merchandising (December '19 - July '22)
+      description: A core backend online team taking responsibility from ATG, a core legacy system. Centralising all online merchandising activities for the website and managing multiple microservices, ensuring high quality inter-connected system working in all real time fashion.
+
+      detail:
+        - contents: Lead in devising a migration plan to move away from large legacy monolithic application to a real-time multi-micro-serviced architecture.
+        - contents: Building a build-run-own culture for over <strong>25 microservices(Kotlin (JVM) / Kubernetes)</strong>. 
+        - contents: Setting example with workshops, pairing and training for partners of the company.
+        - contents: Doing analysis, modelling and reporting of data. <strong>Google Big Query / Google Datastore / Google Datastudio</strong>
+        - contents: Working with stakeholders and business to build back office tool.
+        - contents: Streamline processes removing the need for manual user input and intervention using <strong>cloud functions</strong>.
+        - contents: Building tools to help with day to day development.
+        - contents: Strong operability mindset to help operational running services.
+
+    - name: CRM Acceleration (October '18 - December '19)
+      description: Working in a small but strong experienced where managing multiple services across the CRM landscape. Migrating legacy systems to a new microservice pattern using cutting-edge technologies with deploying to live was achieved on every commit with high quality and highly availability.
+      
+      detail:
+        - contents: Taking the initiative in the team to be cross-functional member covering areas of <strong>developer/devops/QA</strong> as well as contributing to wider teams in terms of best practice.
+        - contents: Developing in <strong>kotlin</strong>, using frameworks such as <span class="inactive">HTTP4K and Exposed</span>.
+        - contents: Setting example with workshops, pairing and training for partners of the company.
+        - contents: Working in a strong <strong>microservice patterned</strong> environment.
+        - contents: Introducing <strong>ElasticSearch</strong> as the internal search system.
+        - contents: Leading and Implementing an <strong>API Gateway</strong><span class="inactive"> (Kubernetes, Kong)</span> as a cookie-cutter for other teams to build on and extend for their own use-cases.
+        - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, GCP, Grafana, GitLab, Kotlin, Terraform)</span>
+        - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
+        - contents: Introducing K6 and contract testing as a new cutting edge tooling to support contract and performance testing.
+
+- name: ASOS
+  url: http://www.asos.com/about/
+  location: London
+  role: "Engineering Consultant (Contract)"
+  date: "March '18 - October '18"
+  description: A dynamic popular website which is growing year on year and looking to tackle the international market with new backend systems and scalable infrastructure backed by MicroSoft Azure. With the aim to turn around over 5000 products every day, globally.
+
+  projects:
+    - name: Digital Core Integration
+      description: Working in a dynamic and adapting team, where connecting and integrating systems is the main objective, with high quality, highly available and well tested systems being the ethos that needs to be continued throughout the project.
+      detail:
+        - contents: Embedding <strong>agile</strong>into a large scale project with the ability to change technologies.
+        - contents: Integrating two product systems, leaning on <strong>Azure</strong> products such as Data Storage, Service Bus and Database.
+        - contents: Using a <strong>componentisation pattern</strong> as a way of being re-useable and faster in delivering over 10 interfaces with <span class="inactive">Java 10, Gradle, Jenkins 2, Spring Boot 2</span>
+        - contents: Automating interfaces ensureing the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
+        - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, AKS, Prometheus, Jenkins, Spring Cloud Config)</span>
+        - contents: Strong team player with proficient communication and willingness to help in any situation
+        - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
+        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, VSTS)</span>
+
+- name: Trainline
+  url: https://www.thetrainline.com/about-us
+  location: London
+  role: "Engineering Consultant (Contract via YLD)"
+  date: "April '17 - March '18"
+  description: Working in a high traffic website using cutting edge front edge technology making sure the re-platforming of the website and mobile website were built to a high standard, to meet the high volumes of loyal customers. A very tech driven company where systems across the board were being changed to meet it's global needs to be leaders in it's market.
+
+  projects:
+    - name: Trainline Desktop
+      description: Working in a squad to help deliver a core part of the website journey, delivering login, travel options and delivery options.
+      detail:
+        - contents: Influencing leaner agile processes in a <strong>SCRUM</strong> manner to best fit the team
+        - contents: Working in a squad which was part of a bigger team <strong>(Cluster)</strong> to deliver the website
+        - contents: Automating the core user journeys using <strong>business-driven</strong> test automation framework <span class="inactive">(Jest, Webdriver, Hamcrest, WebPack, NodeJS, React)</span>
+        - contents: Strong team player with proficient communication and willingness to help in any situation
+        - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Performance</strong> to <strong>Analytics</strong> as well as <span class="inactive">(Selenium Grid)</span>
+        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git)</span>
+
+    - name: Trainline Mobile Web
+      description: Managing a core service, used by many other business service teams and fundemental to provided core data. PIPE CMS is an in-house CMS which is managed by content editors to publish and provide on-demand content for it's users.
+      detail:
+        - contents: Again influencing leaner agile processes in a <strong>SCRUM</strong> manner to best fit the team
+        - contents: Automating the mobile website <strong>(Selenium)</strong> using <strong>end-to-end</strong> test automation framework <span class="inactive">(Mocha, Webpack, Docker, Team City, Webdriver)</span>
+        - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Accessibility</strong> to <strong>Browser Coverage</strong> as well as <span class="inactive">(Selenium Grid)</span>
+
+past-company:
+- name: Channel 4
+  url: https://www.channel4.com/corporate/about-4/who-we-are/about-channel-4
+  location: London
+  date: "November '16 - April '17"
+  role: "SDET (Contract)"
+
+- name: YOOX Net-A-Porter
+  url: http://www.ynap.com/pages/about-us/
+  location: London
+  date: "October '13 - November '16"
+  role: "Test Automation Lead / Delivery Manager"
+  
+- name: Cancer Research UK
+  url: http://www.cancerresearchuk.org/about-us
+  location: London
+  date: "August '11 - October '13"
+  role: Test Analyst

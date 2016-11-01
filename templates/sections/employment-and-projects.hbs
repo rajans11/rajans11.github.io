@@ -1,24 +1,36 @@
 
     <div class="skycom-12 alpha">
       <h2>{{title}}</h2>
-      <ul class="skycom-12 project">
-        <li><strong><p class="intro smaller  skycom-8">Open Source Contributions</p></strong></li>
-      </ul>
 
-      {{#each projects}}
-        <ul class="skycom-12 project">
-          <li><strong><p class="intro smaller  skycom-8">{{date}}</p></strong></li>
-          <li><strong><span class="skycom-3 alpha">Project</span><span class="skycom-9">{{name}}</span></strong></li>
-          {{#if tech}}
-          <li><strong><span class="skycom-3 alpha">Technologies</span><span class="skycom-9">{{tech}}</span></strong></li>
+      {{#each company}}
+        <strong>
+          <span class="intro larger skycom-12"><a href="{{url}}" target="_blank">{{name}}</a>, {{location}}</span>
+          <p class="smaller skycom-3 alpha">{{date}}</p>
+          <p class="smaller skycom-9">{{role}}</p>
+        </strong>
+        <p class="alpha">{{description}}</p>
+        {{#each projects}}
+          <strong><p class="smaller skycom-12">Project: {{name}}</p></strong>
+          <p>{{description}}</p>
+          {{#if this.detail}}
+          <ul class="bullet skycom-12">
+            {{#each this.detail}}
+              <li>
+                {{{this.contents}}}
+              </li>
+            {{/each}}
+          </ul>
           {{/if}}
-          {{#if practices}}
-            <li><strong><span class="skycom-3 alpha">Practices</span><span class="skycom-9">{{practices}}</span></strong></li>
-          {{/if}}
-        </ul>
-        <p>{{description}}</p>
-        <ul class="bullet  skycom-12">
-          {{#each detail}} <li>{{this}}</li> {{/each}}
-        </ul>
+        {{/each}}
       {{/each}}
+    </div>
+    <div class="skycom-12 alpha">
+    <h2>Past Employment</h2>
+    {{#each past-company}}
+    <strong>
+      <span class="smaller skycom-4"><a href="{{url}}" target="_blank">{{name}}</a>, {{location}}</span>
+      <span class="smaller skycom-4">{{date}}</span>
+      <span class="smaller skycom-4">{{role}}</span>
+    </strong>
+    {{/each}}
     </div>

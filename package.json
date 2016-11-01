@@ -1,22 +1,17 @@
 {
-  "name": "technical-cv",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/damnhipster/technical-cv.git"
-  },
-  "author": "",
-  "license": "UNLICENCED",
-  "homepage": "https://github.com/damnhipster/technical-cv#readme",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-compile-handlebars": "^0.6.1",
-    "gulp-rename": "^1.2.2",
-    "js-yaml": "^3.6.1"
-  },
-  "scripts": {
-    "build": "gulp"
-  }
+    "version": "1.0.0",
+    "main": "build.js",
+    "scripts":
+    {
+        "build": "node build.js"
+    },
+    "dependencies":
+    {
+        "handlebars": "^4.7.7",
+        "js-yaml": "^4.1.0"
+    },
+    "engines":
+    {
+        "node": ">=16.0.0"
+    }
 }
