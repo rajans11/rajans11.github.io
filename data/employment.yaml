@@ -7,17 +7,22 @@ company:
   description: A british household retailing name, where re-platforming and opening new avenues online as well as maintaining strong customer relationships has been at the core.
 
   projects:
-    - name: CRM Acceleration
+    - name: Digital Merchandising (December '19 - Current)
+      description: A core backend online team taking responsibility from ATG, a core legacy system. Centralising all online merchandising activities for the website and managing multiple microservices, ensuring high quality inter-connected system working in all real time fashion.
+
+    - name: CRM Acceleration (October '18 - December '19)
       description: Working in a small but strong experienced where managing multiple services across the CRM landscape. Migrating legacy systems to a new microservice pattern using cutting-edge technologies with deploying to live was achieved on every commit with high quality and highly availability.
+      
       detail:
-        - contents: Taking the initiative in the team to be cross-functional <strong>devops</strong> lead as well overseeing QA processes across multiple teams.
+        - contents: Taking the initiative in the team to be cross-functional member covering areas of <strong>developer/devops/QA</strong> as well as contributing to wider teams in terms of best practice.
         - contents: Developing in <strong>kotlin</strong>, using frameworks such as <span class="inactive">HTTP4K and Exposed</span>.
         - contents: Setting example with workshops, pairing and training for partners of the company.
         - contents: Working in a strong <strong>microservice patterned</strong> environment.
+        - contents: Introducing <strong>ElasticSearch</strong> as the internal search system.
         - contents: Leading and Implementing an <strong>API Gateway</strong><span class="inactive"> (Kubernetes, Kong)</span> as a cookie-cutter for other teams to build on and extend for their own use-cases.
         - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, GCP, Grafana, GitLab, Kotlin, Terraform)</span>
-        - contents: Strong team player with proficient communication and willingness to help in any situation
         - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
+        - contents: Introducing K6 and contract testing as a new cutting edge tooling to support contract and performance testing.
 
 - name: ASOS
   url: http://www.asos.com/about/
@@ -83,31 +88,12 @@ company:
         - contents: Actively contributing to the common-service-test framework <strong>(API)</strong> and common-c4-test framework <strong>(Front-end)</strong> <span class="inactive">(Selenium Grid)</span>
         - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, GitLab)</span>
 
+past-company:
 - name: YOOX Net-A-Porter
   url: http://www.ynap.com/pages/about-us/
   location: London
-  role: "Test Automation Lead / Delivery Manager"
   date: "October '13 - November '16"
-  description: Working in a high-pressured environment where e-commerce is at the forefront of today's consumer, Net-A-Porter Group one of the world's leading competitors in online luxury fashion. Working in an agile environment where business demands coupled with cutting edge technology helps them deliver high quality products globally.
-
-  projects:
-    - name: The Outnet
-      description: The Outnet, the sister brand to the flagship Net-A-Porter website, which specialise in high luxury fashion at outlet prices. Where stock turnover is high and user experience is pivotal in driving the website forward whilst maintaining and increasing strong brand image. Working with technology stacks and languages such as Java Enterprise, Spring, NodeJS, React, Angular and Scala. As well as being involved as a strong member of a dynamic team who are continuously deploying using tools and set-up such as Jenkins and Puppet to enable us to get to market quicker, efficiently whilst maintaining a high quality product.
-      detail:
-        - contents: Implementing agile processes in a <strong>SCRUM</strong> and <strong>KANBAN</strong> manner to best fit the team
-        - contents: Successfully delivering large projects managing a development team of 10+
-        - contents: Carrying out group-wide testing to implement programmes such as PayPal, CRM, CMS's
-        - contents: Implementing <strong>test automation framework</strong> <span class="inactive">(Selenium, Cucumber, Java 7/8, Gradle, Jenkins)</span>
-        - contents: Implementing <strong>contract-driven</strong> test automation framework <span class="inactive">(Rest Assured, Junit, Java 8)</span>
-        - contents: Implementing build tools to in help team in manual driven ways of working<span class="inactive">(Bash, Gradle, AWS S3)</span>
-        - contents: Contributing to <strong>CI</strong> and <strong>CD</strong> within the team <span class="inactive">(Puppet, Docker, AWS EC2)</span>
-        - contents: Influencing testing knowledge within the team and the NAP Group Testing Community
-        - contents: Strong team player with proficient communication and willingness to help in any situation
-        - contents: Leading the testing automation group-wide strategy of cloud testing solutions <span class="inactive">(SauceLabs, BrowserStack)</span>
-        - contents: Experience in e-commerce SEO and monitoring <span class="inactive">(Speed Curve, Google Analytics, Adobe Analytics, Web Page Test, Y Slow, Lighthouse)</span>
-        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, Stash/BitBucket, SVN)</span>
-
-past-company:
+  role: "Test Automation Lead / Delivery Manager"
 - name: Cancer Research UK
   url: http://www.cancerresearchuk.org/about-us
   location: London

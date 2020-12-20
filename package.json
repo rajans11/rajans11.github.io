@@ -14,7 +14,8 @@
     "gulp": "^3.9.1",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-rename": "^1.2.2",
-    "js-yaml": "^3.6.1"
+    "js-yaml": "^3.6.1",
+    "node": "^6.2.2"
   },
   "scripts": {
     "build": "gulp"

@@ -1,33 +1,43 @@
 skills:
 - heading: "Languages"
   detail:
-    - contents: Kotlin, Java 8+, Ruby, Scala(Basic), Spring Boot
-    - contents: JavaScript, ES5/6, React(React), Vue and Node.js
+    - contents: JVM based - Kotlin, Java 8+
+    - contents: Frameworks - HTTP4k, Ktor, Spring Boot
+    - contents: JavaScript, ES5/6
     - contents: Bash scripting
     - contents: HTML, CSS, SASS, Handlebars
 
+- heading: "Deploying & Cloud"
+  detail:
+  - contents: Azure & Google Cloud Services
+  - contents: Docker
+  - contents: Kubernetes, Helm
+  - contents: Terraform / Terragrunt
+
+- heading: "Data"
+  detail:
+  - contents: Apache Beam, Google Dataflow, Google BigQuery, Google Datastore
+  - contents: Oracle DB, MySql, Azure DB & Postgres
+
+- heading: "Build / Build Tools"
+  detail:
+  - contents: Jenkins, Travis, GitLab, Team City
+  - contents: Maven, Gradle, WebPack
+
+- heading: "Logging & Monitoring"
+  detail:
+  - contents: ELK - Elastic Search / Kibana, Grafana
+  - contents: New Relic, App Dynamics, Splunk, Kibana, Prometheus
+  
 - heading: "Testing"
   detail:
   - contents: Automation frameworks Selenium WebDriver, Selenide, Serenity, Rest Assured, Cucumber, Appium & WedDriver IO, Mocha, Karate, KotlinTest
   - contents: TDD, BDD and ATDD, Junit, TestNG, Hamcrest, Jest
-  - contents: Gatling, Locust IO, Siege, Wrk & Apache ab
+  - contents: K6, Gatling, Locust IO, Siege, Wrk & Apache ab
   - contents: Security Automation with In-house Java Client to external tools like Nessus, Burp Suite, OWASP ZAP
   - contents: BrowserStack, Selenium Grid & SauceLabs
-  - contents: API testing - Postman & Charles
+  - contents: Contrast Testing
 
-- heading: "Database"
-  detail:
-  - contents: Oracle DB, MySql, Azure DB & Postgres
 
-- heading: "Build / Build Tools & Monitoring"
-  detail:
-  - contents: Jenkins, Travis, GitLab, Team City
-  - contents: Maven, Gradle, WebPack
-  - contents: New Relic, App Dynamics, Splunk, Kibana, Prometheus
 
-- heading: "Deploying & Cloud"
-  detail:
-  - contents: Azure & Google Cloud
-  - contents: Docker & Puppet
-  - contents: Azure Cloud Services
-  - contents: Kubernetes, Helm
+
