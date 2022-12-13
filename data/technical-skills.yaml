@@ -1,11 +1,10 @@
 skills:
 - heading: "Languages"
   detail:
-    - contents: JVM based - Kotlin, Java 8+
+    - contents: JVM based - Kotlin, Java
     - contents: Frameworks - HTTP4k, Ktor, Spring Boot
     - contents: JavaScript, ES5/6
     - contents: Bash scripting
-    - contents: HTML, CSS, SASS, Handlebars
 
 - heading: "Deploying & Cloud"
   detail:
@@ -19,25 +18,28 @@ skills:
   - contents: Apache Beam, Google Dataflow, Google BigQuery, Google Datastore
   - contents: Oracle DB, MySql, Azure DB & Postgres
 
-- heading: "Build / Build Tools"
+- heading: "Build / Build Tools / Development"
   detail:
-  - contents: Jenkins, Travis, GitLab, Team City
-  - contents: Maven, Gradle, WebPack
+  - contents: GitLab, Jenkins
+  - contents: Travis, Team City
+  - contents: Gradle, Maven, WebPack
+  - contents: Git, GitFlow
 
 - heading: "Logging & Monitoring"
   detail:
-  - contents: ELK - Elastic Search / Kibana, Grafana
+  - contents: ELK - Elastic Search / Kibana, Grafana, AlertManager
   - contents: New Relic, App Dynamics, Splunk, Kibana, Prometheus
   
 - heading: "Testing"
   detail:
-  - contents: Automation frameworks Selenium WebDriver, Selenide, Serenity, Rest Assured, Cucumber, Appium & WedDriver IO, Mocha, Karate, KotlinTest
   - contents: TDD, BDD and ATDD, Junit, TestNG, Hamcrest, Jest
   - contents: K6, Gatling, Locust IO, Siege, Wrk & Apache ab
   - contents: Security Automation with In-house Java Client to external tools like Nessus, Burp Suite, OWASP ZAP
-  - contents: BrowserStack, Selenium Grid & SauceLabs
   - contents: Contrast Testing
 
-
+- heading: "Other"
+  detail:
+  - contents: Google PubSub, Slack API
+  - contents: Google Secret Manager
 
 

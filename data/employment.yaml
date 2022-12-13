@@ -4,11 +4,32 @@ company:
   location: London
   role: "Engineering Consultant (Contract via EE)"
   date: "October '18 - Current"
-  description: A british household retailing name, where re-platforming and opening new avenues online as well as maintaining strong customer relationships has been at the core.
+  description: A british household retailer, where re-platforming, training partners and innovating in the online space has been opening new avenues online as well as maintaining strong customer relationships has been at the core technology values.
 
   projects:
-    - name: Digital Merchandising (December '19 - Current)
+    - name: Recommendations (July '22 - Current)
+      description: A dynamic team owning the service from front to back ensuring customers are recommended products and servics with cutting-edge technologies.
+
+      detail:
+        - contents: Overall audit of service health, improving code, development processes and improving quality coverage.
+        - contents: Working along side data science building <strong>data pipelines</strong> and dashboards.
+        - contents: Setting example with workshops, pairing and training for partners of the company.
+        - contents: Improving in-house data models and moving away from third party dependencies.
+        - contents: Encouraging a <strong>performance</strong> culture.
+        - contents: Encouraging a <strong>experimentation</strong> culture.
+
+    - name: Digital Merchandising (December '19 - July '22)
       description: A core backend online team taking responsibility from ATG, a core legacy system. Centralising all online merchandising activities for the website and managing multiple microservices, ensuring high quality inter-connected system working in all real time fashion.
+
+      detail:
+        - contents: Key contributer in devising a migration plan to move away from large legacy monolithic application to a real-time multi-micro-serviced architecture.
+        - contents: Encouraging and influencing a build-run-own culture for over <strong>15 microservices</strong>.
+        - contents: Setting example with workshops, pairing and training for partners of the company.
+        - contents: Doing analysis, modelling and reporting of data.
+        - contents: Working with stakeholders and business to build back office tool.
+        - contents: Streamline processes removing the need for manual user input and intervention using <strong>cloud functions</strong>.
+        - contents: Building tools to help with day to day development.
+        - contents: Strong operability mindset to help operational running services.
 
     - name: CRM Acceleration (October '18 - December '19)
       description: Working in a small but strong experienced where managing multiple services across the CRM landscape. Migrating legacy systems to a new microservice pattern using cutting-edge technologies with deploying to live was achieved on every commit with high quality and highly availability.
@@ -69,26 +90,13 @@ company:
         - contents: Automating the mobile website <strong>(Selenium)</strong> using <strong>end-to-end</strong> test automation framework <span class="inactive">(Mocha, Webpack, Docker, Team City, Webdriver)</span>
         - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Accessibility</strong> to <strong>Browser Coverage</strong> as well as <span class="inactive">(Selenium Grid)</span>
 
-- name: Channel 4
-  url: http://www.channel4.com/corporate/about-4/who-we-are/what-is-channel-4
-  location: London
-  role: "Test Automation Consultant (Contract)"
-  date: "November '16 - April '17"
-  description: Working in a strongly service orientated architecture environment where today's consumers demand high availability along with personalisation and access across made media forms. Working in an agile environment where business needs are ever changing and with helps them deliver highly performing services.
-
-  projects:
-    - name: Content Core Service & PIPE CMS
-      description: Managing a core service, used by many other business service teams and fundemental to provided core data. PIPE CMS is an in-house CMS which is managed by content editors to publish and provide on-demand content for it's users.
-      detail:
-        - contents: Introducing leaner agile processes in a <strong>SCRUM</strong> and <strong>KANBAN</strong> manner to best fit the team
-        - contents: Working in a swarm with the development team located in Malaga
-        - contents: Automating the content core service <strong>(API)</strong> using <strong>contract-driven</strong> test automation framework <span class="inactive">(Rest Assured, Cucumber, Hamcrest, Java 8, Maven, Bamboo)</span>
-        - contents: Automating the PIPE CMS <span class="inactive">(Selenium, Cucumber, Java 7/8, Maven, Jenkins)</span>
-        - contents: Strong team player with proficient communication and willingness to help in any situation
-        - contents: Actively contributing to the common-service-test framework <strong>(API)</strong> and common-c4-test framework <strong>(Front-end)</strong> <span class="inactive">(Selenium Grid)</span>
-        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, GitLab)</span>
-
 past-company:
+- name: Channel 4
+  url: https://www.channel4.com/corporate/about-4/who-we-are/about-channel-4
+  location: London
+  date: "November '16 - April '17"
+  role: "SDET (Contract)"
+
 - name: YOOX Net-A-Porter
   url: http://www.ynap.com/pages/about-us/
   location: London
