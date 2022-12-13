@@ -11,7 +11,7 @@
   "license": "UNLICENCED",
   "homepage": "https://github.com/rajans11/rajans11.github.io#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-compile-handlebars": "^0.6.1",
     "gulp-rename": "^1.2.2",
     "js-yaml": "^3.6.1",
