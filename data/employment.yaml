@@ -1,13 +1,30 @@
 company:
+- name: HMRC - CDIO
+  url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
+  location: Remote
+  role: "Engineering Consultant (Contract via EE)"
+  date: "Feb '23 - Current"
+  description: UK Government HMRC going through the largest transformation in europe
+
+  projects:
+    - name: CDAP Upgrade
+      description: A team owning the re-platforming of services and tools as well as managing the cloudera migration.
+
+      detail:
+        - contents: Overall auditing of product microservices health, improving code, migrating pipelines from <span class="inactive">Jenkins</span> to <span class="inactive">GitLab</span>.
+        - contents: Working along side product teams to ensure they are all adhering to new platform standard in terms of security and configuration.
+        - contents: Setting example with workshops, pairing and spiking new tooling.
+        - contents: Encouraging a <strong>operability</strong> culture.
+
 - name: John Lewis
   url: https://www.johnlewispartnership.co.uk/about.html
   location: London
   role: "Engineering Consultant (Contract via EE)"
-  date: "October '18 - Current"
+  date: "October '18 - Febuary '23"
   description: A british household retailer, where re-platforming, training partners and innovating in the online space has been opening new avenues online as well as maintaining strong customer relationships has been at the core technology values.
 
   projects:
-    - name: Recommendations (July '22 - Current)
+    - name: Recommendations (July '22 - Feb '23)
       description: A dynamic team owning the service from front to back ensuring customers are recommended products and servics with cutting-edge technologies.
 
       detail:
