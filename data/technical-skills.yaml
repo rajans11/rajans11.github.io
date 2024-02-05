@@ -3,18 +3,17 @@ skills:
   detail:
     - contents: JVM based - Kotlin, Java
     - contents: Frameworks - HTTP4k, Ktor, Spring Boot
-    - contents: Bash scripting
+    - contents: Bash scripting / Python (Basic)
 
 - heading: "Deploying & Cloud"
   detail:
-  - contents: Azure & Google Cloud Services
+  - contents: Azure / Google Cloud Services / AWS
   - contents: Docker
   - contents: Kubernetes, Helm
-  - contents: Terraform / Terragrunt
 
 - heading: "Data"
   detail:
-  - contents: Google Dataflow, Google BigQuery, Google Datastore, Kafka
+  - contents: Google Dataflow, BigQuery, Datastore & PubSub, Kafka
   - contents: Oracle DB, MySql, Azure DB & Postgres
 
 - heading: "Build / Build Tools / Development"
@@ -37,7 +36,7 @@ skills:
 
 - heading: "Other"
   detail:
-  - contents: Google PubSub, Slack API
-  - contents: Google Secret Manager
-
+  - contents: Slack API
+  - contents: Google Secret Manager, Hashicorp Vault
+  - contents: Terraform / Terragrunt
 

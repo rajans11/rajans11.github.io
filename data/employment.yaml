@@ -15,6 +15,7 @@ company:
         - contents: Working along side product teams to ensure they are all adhering to new platform standard in terms of security and configuration.
         - contents: Setting example with workshops, pairing and spiking new tooling.
         - contents: Encouraging a <strong>operability</strong> culture.
+        - contents: Improving operability configuring alerting and monitoring with AWS Cloud Watch.
 
 - name: John Lewis
   url: https://www.johnlewispartnership.co.uk/about.html
@@ -28,21 +29,23 @@ company:
       description: A dynamic team owning the service from front to back ensuring customers are recommended products and servics with cutting-edge technologies.
 
       detail:
-        - contents: Overall audit of service health, improving code, development processes and improving quality coverage.
-        - contents: Working along side data science building <strong>data pipelines</strong> and dashboards.
+        - contents: Overall audit of service health, improving <strong>Kotlin (JVM)</strong> code, development processes and improving quality coverage.
+        - contents: Working along side data science building data pipelines <strong>(Google Dataflow / Cloud functions / Pubsub)</strong> and <strong>grafana</strong> dashboards. 
+        - contents: Strategic development approach for bringing in data models in-house away whilst migrating with no negative sales conversion.
         - contents: Setting example with workshops, pairing and training for partners of the company.
-        - contents: Improving in-house data models and moving away from third party dependencies.
+        - contents: Working with data engineers and scientists to implement and deploy models <strong>Google Vertex AI</strong>.
         - contents: Encouraging a <strong>performance</strong> culture.
         - contents: Encouraging a <strong>experimentation</strong> culture.
+        - contents: Managing and deploying our GCP products using <strong>Terraform</strong>
 
     - name: Digital Merchandising (December '19 - July '22)
       description: A core backend online team taking responsibility from ATG, a core legacy system. Centralising all online merchandising activities for the website and managing multiple microservices, ensuring high quality inter-connected system working in all real time fashion.
 
       detail:
-        - contents: Key contributer in devising a migration plan to move away from large legacy monolithic application to a real-time multi-micro-serviced architecture.
-        - contents: Encouraging and influencing a build-run-own culture for over <strong>15 microservices</strong>.
+        - contents: Lead in devising a migration plan to move away from large legacy monolithic application to a real-time multi-micro-serviced architecture.
+        - contents: Building a build-run-own culture for over <strong>25 microservices(Kotlin (JVM) / Kubernetes)</strong>. 
         - contents: Setting example with workshops, pairing and training for partners of the company.
-        - contents: Doing analysis, modelling and reporting of data.
+        - contents: Doing analysis, modelling and reporting of data. <strong>Google Big Query / Google Datastore / Google Datastudio</strong>
         - contents: Working with stakeholders and business to build back office tool.
         - contents: Streamline processes removing the need for manual user input and intervention using <strong>cloud functions</strong>.
         - contents: Building tools to help with day to day development.
