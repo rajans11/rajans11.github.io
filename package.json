@@ -3,7 +3,9 @@
     "main": "build.js",
     "scripts":
     {
-        "build": "node build.js"
+        "prebuild": "npm install",
+        "developer": "node build.js",
+        "manager": "node build.js manager"
     },
     "dependencies":
     {

@@ -4,4 +4,5 @@ Node 16
 
 #### Run
 
-`npm i && npm run-script build`
+`npm run developer`
+`npm run manager`
