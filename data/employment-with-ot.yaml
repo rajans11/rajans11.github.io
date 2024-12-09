@@ -1,8 +1,26 @@
 company:
+- name: Order Tiger
+  url: https://www.ordertiger.com/
+  location: Remote/London
+  role: "Technology Consultant (Private)"
+  date: "April '24 - Current"
+  description: An Online ordering system specialising in food and service delivery
+
+  projects:
+    - name: Order Tiger Backend
+      description: Providing consultancy and development / quality / devops and product review to improve product technically with a business mindset.
+
+      detail:
+        - contents: Overall improvement to backend code base, implementing new features and integrations
+        - contents: Helping access new integrations being fit for purpose, integrating with payment gateway such as RyftPay.
+        - contents: Helping manage other channel streams with delivery such as front-end, mobile and email channels.
+        - contents: Keeping hosting and upgrades up to date on AWS
+        - contents: Liasing with potential clients giving technical and delivery input and managing expectations.
+
 - name: HMRC - CDIO
   url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
   location: Remote (Security Cleared)
-  role: "Senior Engineering Consultant (Contract via EE)"
+  role: "Engineering Consultant (Contract via EE)"
   date: "Febuary '23 - November '24"
   description: UK Government HMRC going through the largest transformation in europe
 
