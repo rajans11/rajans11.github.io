@@ -3,8 +3,8 @@ company:
   url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
   location: Remote (Security Cleared)
   role: "Senior Engineering Consultant (Contract via EE)"
-  date: "Febuary '23 - November '24"
-  description: UK Government HMRC going through the largest transformation in europe
+  date: "Feb '23 - Nov '24"
+  description: UK Government HMRC going through the largest transformation in Europe
 
   projects:
     - name: CDAP Upgrade
@@ -12,121 +12,86 @@ company:
 
       detail:
         - contents: Overall auditing of product microservices health, improving code, migrating pipelines from <span class="inactive">Jenkins</span> to <span class="inactive">GitLab</span>.
-        - contents: Working along side product teams to ensure they are all adhering to new platform standard in terms of security and assisting them in migrating configuration to <strong>Vault</strong>.
+        - contents: Working alongside product teams to ensure they are all adhering to new platform standard in terms of security and assisting them in migrating configuration to <strong>Vault</strong>.
         - contents: Assisting teams with performance testing applications in the new cluster.
         - contents: Leading the strategy and implementation in ensuring dual running was possible between two clusters, ensuring minimal disruptions.
         - contents: Setting example with workshops, pairing and spiking new tooling.
-        - contents: Encouraging a <strong>operability</strong> culture.
+        - contents: Encouraging an <strong>operability</strong> culture.
         - contents: Improving operability configuring alerting and monitoring with AWS Cloud Watch.
 
 - name: John Lewis
   url: https://www.johnlewispartnership.co.uk/about.html
   location: London
-  role: "Engineering Consultant (Contract via EE)"
-  date: "October '18 - Febuary '23"
-  description: A british household retailer, where re-platforming, training partners and innovating in the online space has been opening new avenues online as well as maintaining strong customer relationships has been at the core technology values.
+  role: "Lead Engineering Consultant (Contract via EE)"
+  date: "Oct '18 - Feb '23"
+  description: A British household retailer, where re-platforming, training partners and innovating in the online space has been opening new avenues online as well as maintaining strong customer relationships has been at the core technology values.
 
   projects:
     - name: Recommendations (July '22 - Feb '23)
-      description: A dynamic team owning the service from front to back ensuring customers are recommended products and servics with cutting-edge technologies.
-
-      detail:
-        - contents: Overall audit of service health, improving <strong>Kotlin (JVM)</strong> code, development processes and improving quality coverage.
-        - contents: Working along side data science building data pipelines <strong>(Google Dataflow / Cloud functions / Pubsub)</strong> and <strong>grafana</strong> dashboards. 
-        - contents: Strategic development approach for bringing in data models in-house away whilst migrating with no negative sales conversion.
-        - contents: Setting example with workshops, pairing and training for partners of the company.
-        - contents: Working with data engineers and scientists to implement and deploy models <strong>Google Vertex AI</strong>.
-        - contents: Encouraging a <strong>performance</strong> culture.
-        - contents: Encouraging a <strong>experimentation</strong> culture.
-        - contents: Managing and deploying our GCP products using <strong>Terraform</strong>
-
+      description: Led a cross-functional team in delivering personalized product recommendations by driving architectural improvements and enhancing the performance and reliability of customer-facing services.
+  
     - name: Digital Merchandising (December '19 - July '22)
-      description: A core backend online team taking responsibility from ATG, a core legacy system. Centralising all online merchandising activities for the website and managing multiple microservices, ensuring high quality inter-connected system working in all real time fashion.
-
-      detail:
-        - contents: Lead in devising a migration plan to move away from large legacy monolithic application to a real-time multi-micro-serviced architecture.
-        - contents: Building a build-run-own culture for over <strong>25 microservices(Kotlin (JVM) / Kubernetes)</strong>. 
-        - contents: Setting example with workshops, pairing and training for partners of the company.
-        - contents: Doing analysis, modelling and reporting of data. <strong>Google Big Query / Google Datastore / Google Datastudio</strong>
-        - contents: Working with stakeholders and business to build back office tool.
-        - contents: Streamline processes removing the need for manual user input and intervention using <strong>cloud functions</strong>.
-        - contents: Building tools to help with day to day development.
-        - contents: Strong operability mindset to help operational running services.
-
+      description: Managed the migration of legacy systems and led a team to modernize the digital merchandising platform, resulting in a more scalable, flexible architecture supporting real-time operations across multiple microservices.
+  
     - name: CRM Acceleration (October '18 - December '19)
-      description: Working in a small but strong experienced where managing multiple services across the CRM landscape. Migrating legacy systems to a new microservice pattern using cutting-edge technologies with deploying to live was achieved on every commit with high quality and highly availability.
-      
+      description: Led a high-performing team responsible for migrating legacy CRM systems to microservices, ensuring high availability and performance while overseeing cross-functional collaboration and technical execution.
+
       detail:
-        - contents: Taking the initiative in the team to be cross-functional member covering areas of <strong>developer/devops/QA</strong> as well as contributing to wider teams in terms of best practice.
-        - contents: Developing in <strong>kotlin</strong>, using frameworks such as <span class="inactive">HTTP4K and Exposed</span>.
-        - contents: Setting example with workshops, pairing and training for partners of the company.
-        - contents: Working in a strong <strong>microservice patterned</strong> environment.
-        - contents: Introducing <strong>ElasticSearch</strong> as the internal search system.
-        - contents: Leading and Implementing an <strong>API Gateway</strong><span class="inactive"> (Kubernetes, Kong)</span> as a cookie-cutter for other teams to build on and extend for their own use-cases.
-        - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, GCP, Grafana, GitLab, Kotlin, Terraform)</span>
-        - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
-        - contents: Introducing K6 and contract testing as a new cutting edge tooling to support contract and performance testing.
+        - contents: <strong>Leading Service Health Audits & Technical Improvements</strong> - Oversaw a comprehensive audit of service health, guiding the team through improving <strong>Kotlin (JVM)</strong> code quality, refining development processes, and strengthening test coverage for increased production stability.
+        - contents: <strong>Driving Data Infrastructure Development</strong> - Led the design and implementation of scalable data pipelines in collaboration with data scientists, leveraging <strong>Google Dataflow</strong>, <strong>Cloud Functions</strong>, and <strong>Pub/Sub</strong> to enable real-time customer data processing.
+        - contents: <strong>Strategic Data Model In-Housing & Migration</strong> - Defined and executed the migration strategy for bringing data models in-house, ensuring smooth transition without impacting sales conversion, while optimizing internal data architecture.
+        - contents: <strong>Overseeing Machine Learning Model Deployment</strong> - Led the integration and deployment of machine learning models using <strong>Google Vertex AI</strong>, ensuring high availability and seamless operation in a production environment.
+        - contents: <strong>Fostering a Culture of Experimentation & Innovation</strong> - Encouraged a culture of experimentation and innovation, empowering engineers to explore new technologies and methods, which resulted in more efficient and impactful product features.
+        - contents: <strong>Cross-Functional Enablement through Workshops & Pairing</strong> - Drove team development by organizing regular workshops and pair programming sessions, promoting knowledge sharing and ensuring alignment on technical direction across teams.
+        - contents: <strong>Data Analysis Leadership for Business Insights</strong> - Directed the analysis and reporting of key business data, utilizing <strong>Google Big Query</strong>, <strong>Google Datastore</strong>, and <strong>Google Datastudio</strong> to provide actionable insights to stakeholders and inform strategic decisions.
+        - contents: <strong>Building Operational Tools for Efficiency</strong> - Led the development of back-office tools that streamlined operations, reduced manual tasks, and enhanced productivity for internal teams.
+        - contents: <strong>Automating Processes with Cloud Functions</strong> - Championed the automation of workflows, removing manual intervention through the use of <strong>cloud functions</strong>, resulting in greater efficiency and reduced error rates.
+        - contents: <strong>Promoting Operational Reliability & Monitoring</strong> - Instilled a focus on operational reliability by building and maintaining observability tools and performance monitoring dashboards, ensuring high availability of critical services.
+        - contents: <strong>Enhancing Tooling & Development Practices</strong> - Spearheaded the creation of internal tools that optimized development processes, making the team more agile and reducing time-to-market for key features.
+        - contents: <strong>Implementing Microservices Architecture for Scalability</strong> - Guided the implementation of a <strong>microservices architecture</strong>, enabling teams to deploy independently and scale with business demands while minimizing downtime.
+        - contents: <strong>Cross-Disciplinary Collaboration for Testing & Performance</strong> - Led cross-functional collaboration with central testing and performance teams, ensuring all services adhered to stringent quality standards and performance requirements.
 
 - name: ASOS
   url: http://www.asos.com/about/
   location: London
   role: "Engineering Consultant (Contract)"
-  date: "March '18 - October '18"
+  date: "Mar '18 - Oct '18"
   description: A dynamic popular website which is growing year on year and looking to tackle the international market with new backend systems and scalable infrastructure backed by MicroSoft Azure. With the aim to turn around over 5000 products every day, globally.
 
   projects:
     - name: Digital Core Integration
       description: Working in a dynamic and adapting team, where connecting and integrating systems is the main objective, with high quality, highly available and well tested systems being the ethos that needs to be continued throughout the project.
       detail:
-        - contents: Embedding <strong>agile</strong>into a large scale project with the ability to change technologies.
+        - contents: Embedding <strong>agile</strong> into a large scale project with the ability to change technologies.
         - contents: Integrating two product systems, leaning on <strong>Azure</strong> products such as Data Storage, Service Bus and Database.
         - contents: Using a <strong>componentisation pattern</strong> as a way of being re-useable and faster in delivering over 10 interfaces with <span class="inactive">Java 10, Gradle, Jenkins 2, Spring Boot 2</span>
-        - contents: Automating interfaces ensureing the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
-        - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, AKS, Prometheus, Jenkins, Spring Cloud Config)</span>
+        - contents: Automating interfaces ensuring the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
+        - contents: Creating a scalable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, AKS, Prometheus, Jenkins, Spring Cloud Config)</span>
         - contents: Strong team player with proficient communication and willingness to help in any situation
         - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
         - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, VSTS)</span>
 
+past-company:
 - name: Trainline
   url: https://www.thetrainline.com/about-us
   location: London
+  date: "Apr '17 - Mar '18"
   role: "Engineering Consultant (Contract via YLD)"
-  date: "April '17 - March '18"
-  description: Working in a high traffic website using cutting edge front edge technology making sure the re-platforming of the website and mobile website were built to a high standard, to meet the high volumes of loyal customers. A very tech driven company where systems across the board were being changed to meet it's global needs to be leaders in it's market.
 
-  projects:
-    - name: Trainline Desktop
-      description: Working in a squad to help deliver a core part of the website journey, delivering login, travel options and delivery options.
-      detail:
-        - contents: Influencing leaner agile processes in a <strong>SCRUM</strong> manner to best fit the team
-        - contents: Working in a squad which was part of a bigger team <strong>(Cluster)</strong> to deliver the website
-        - contents: Automating the core user journeys using <strong>business-driven</strong> test automation framework <span class="inactive">(Jest, Webdriver, Hamcrest, WebPack, NodeJS, React)</span>
-        - contents: Strong team player with proficient communication and willingness to help in any situation
-        - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Performance</strong> to <strong>Analytics</strong> as well as <span class="inactive">(Selenium Grid)</span>
-        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git)</span>
-
-    - name: Trainline Mobile Web
-      description: Managing a core service, used by many other business service teams and fundemental to provided core data. PIPE CMS is an in-house CMS which is managed by content editors to publish and provide on-demand content for it's users.
-      detail:
-        - contents: Again influencing leaner agile processes in a <strong>SCRUM</strong> manner to best fit the team
-        - contents: Automating the mobile website <strong>(Selenium)</strong> using <strong>end-to-end</strong> test automation framework <span class="inactive">(Mocha, Webpack, Docker, Team City, Webdriver)</span>
-        - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Accessibility</strong> to <strong>Browser Coverage</strong> as well as <span class="inactive">(Selenium Grid)</span>
-
-past-company:
 - name: Channel 4
   url: https://www.channel4.com/corporate/about-4/who-we-are/about-channel-4
   location: London
-  date: "November '16 - April '17"
+  date: "Nov '16 - Apr '17"
   role: "SDET (Contract)"
 
 - name: YOOX Net-A-Porter
   url: http://www.ynap.com/pages/about-us/
   location: London
-  date: "October '13 - November '16"
+  date: "Oct '13 - Nov '16"
   role: "Test Automation Lead / Delivery Manager"
   
 - name: Cancer Research UK
   url: http://www.cancerresearchuk.org/about-us
   location: London
-  date: "August '11 - October '13"
+  date: "Aug '11 - Oct '13"
   role: Test Analyst

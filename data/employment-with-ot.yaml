@@ -21,8 +21,8 @@ company:
   url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
   location: Remote (Security Cleared)
   role: "Engineering Consultant (Contract via EE)"
-  date: "Febuary '23 - November '24"
-  description: UK Government HMRC going through the largest transformation in europe
+  date: "February '23 - November '24"
+  description: UK Government HMRC going through the largest transformation in Europe
 
   projects:
     - name: CDAP Upgrade
@@ -30,18 +30,18 @@ company:
 
       detail:
         - contents: Overall auditing of product microservices health, improving code, migrating pipelines from <span class="inactive">Jenkins</span> to <span class="inactive">GitLab</span>.
-        - contents: Working along side product teams to ensure they are all adhering to new platform standard in terms of security and assisting them in migrating configuration to <strong>Vault</strong>.
+        - contents: Working alongside product teams to ensure they are all adhering to new platform standard in terms of security and assisting them in migrating configuration to <strong>Vault</strong>.
         - contents: Assisting teams with performance testing applications in the new cluster.
         - contents: Leading the strategy and implementation in ensuring dual running was possible between two clusters, ensuring minimal disruptions.
         - contents: Setting example with workshops, pairing and spiking new tooling.
-        - contents: Encouraging a <strong>operability</strong> culture.
+        - contents: Encouraging an <strong>operability</strong> culture.
         - contents: Improving operability configuring alerting and monitoring with AWS Cloud Watch.
 
 - name: John Lewis
   url: https://www.johnlewispartnership.co.uk/about.html
   location: London
   role: "Engineering Consultant (Contract via EE)"
-  date: "October '18 - Febuary '23"
+  date: "October '18 - February '23"
   description: A british household retailer, where re-platforming, training partners and innovating in the online space has been opening new avenues online as well as maintaining strong customer relationships has been at the core technology values.
 
   projects:
@@ -55,7 +55,7 @@ company:
         - contents: Setting example with workshops, pairing and training for partners of the company.
         - contents: Working with data engineers and scientists to implement and deploy models <strong>Google Vertex AI</strong>.
         - contents: Encouraging a <strong>performance</strong> culture.
-        - contents: Encouraging a <strong>experimentation</strong> culture.
+        - contents: Encouraging an <strong>experimentation</strong> culture.
         - contents: Managing and deploying our GCP products using <strong>Terraform</strong>
 
     - name: Digital Merchandising (December '19 - July '22)
@@ -72,7 +72,7 @@ company:
         - contents: Strong operability mindset to help operational running services.
 
     - name: CRM Acceleration (October '18 - December '19)
-      description: Working in a small but strong experienced where managing multiple services across the CRM landscape. Migrating legacy systems to a new microservice pattern using cutting-edge technologies with deploying to live was achieved on every commit with high quality and highly availability.
+      description: Working in a small but strong experienced where managing multiple services across the CRM landscape. Migrating legacy systems to a new microservice pattern using cutting-edge technologies with deploying to live was achieved on every commit with high quality and high availability.
       
       detail:
         - contents: Taking the initiative in the team to be cross-functional member covering areas of <strong>developer/devops/QA</strong> as well as contributing to wider teams in terms of best practice.
@@ -96,41 +96,22 @@ company:
     - name: Digital Core Integration
       description: Working in a dynamic and adapting team, where connecting and integrating systems is the main objective, with high quality, highly available and well tested systems being the ethos that needs to be continued throughout the project.
       detail:
-        - contents: Embedding <strong>agile</strong>into a large scale project with the ability to change technologies.
+        - contents: Embedding <strong>agile</strong> into a large scale project with the ability to change technologies.
         - contents: Integrating two product systems, leaning on <strong>Azure</strong> products such as Data Storage, Service Bus and Database.
         - contents: Using a <strong>componentisation pattern</strong> as a way of being re-useable and faster in delivering over 10 interfaces with <span class="inactive">Java 10, Gradle, Jenkins 2, Spring Boot 2</span>
-        - contents: Automating interfaces ensureing the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
+        - contents: Automating interfaces ensuring the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
         - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, AKS, Prometheus, Jenkins, Spring Cloud Config)</span>
         - contents: Strong team player with proficient communication and willingness to help in any situation
         - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
         - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, VSTS)</span>
 
+past-company:
 - name: Trainline
   url: https://www.thetrainline.com/about-us
   location: London
-  role: "Engineering Consultant (Contract via YLD)"
   date: "April '17 - March '18"
-  description: Working in a high traffic website using cutting edge front edge technology making sure the re-platforming of the website and mobile website were built to a high standard, to meet the high volumes of loyal customers. A very tech driven company where systems across the board were being changed to meet it's global needs to be leaders in it's market.
+  role: "Engineering Consultant (Contract via YLD)"
 
-  projects:
-    - name: Trainline Desktop
-      description: Working in a squad to help deliver a core part of the website journey, delivering login, travel options and delivery options.
-      detail:
-        - contents: Influencing leaner agile processes in a <strong>SCRUM</strong> manner to best fit the team
-        - contents: Working in a squad which was part of a bigger team <strong>(Cluster)</strong> to deliver the website
-        - contents: Automating the core user journeys using <strong>business-driven</strong> test automation framework <span class="inactive">(Jest, Webdriver, Hamcrest, WebPack, NodeJS, React)</span>
-        - contents: Strong team player with proficient communication and willingness to help in any situation
-        - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Performance</strong> to <strong>Analytics</strong> as well as <span class="inactive">(Selenium Grid)</span>
-        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git)</span>
-
-    - name: Trainline Mobile Web
-      description: Managing a core service, used by many other business service teams and fundemental to provided core data. PIPE CMS is an in-house CMS which is managed by content editors to publish and provide on-demand content for it's users.
-      detail:
-        - contents: Again influencing leaner agile processes in a <strong>SCRUM</strong> manner to best fit the team
-        - contents: Automating the mobile website <strong>(Selenium)</strong> using <strong>end-to-end</strong> test automation framework <span class="inactive">(Mocha, Webpack, Docker, Team City, Webdriver)</span>
-        - contents: Actively contributing to the testing guild and advising of appraoches to cover the vast areas of testing from <strong>Accessibility</strong> to <strong>Browser Coverage</strong> as well as <span class="inactive">(Selenium Grid)</span>
-
-past-company:
 - name: Channel 4
   url: https://www.channel4.com/corporate/about-4/who-we-are/about-channel-4
   location: London

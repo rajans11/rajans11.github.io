@@ -1,4 +1,6 @@
 qualifications:
+  - description: BSc (2:2 Hons) Computer Science and Business Management <span class=inactive>(University of London, Queen Mary)</span>
+    date: "Sep '06 - '09"
   - description: Google Cloud Certified - Professional Cloud Developer
     date: "Mar '23"
   - description: Certified ScrumMaster&reg;
@@ -9,5 +11,3 @@ qualifications:
     date: "Aug '12"
   - description: ISEB/ISTQB Certificate in Advanced Level - Technical Testing 
     date: "Aug '12"
-  - description: BSc (2:2 Hons) Computer Science and Business Management <span class=inactive>(University of London, Queen Mary)</span>
-    date: "Sep '06 - '09"
