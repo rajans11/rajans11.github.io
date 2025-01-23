@@ -1,7 +1,8 @@
 skills:
 - heading: "Languages"
   detail:
-    - contents: JVM based - Kotlin, Java
+    - contents: JVM based - Kotlin, Java, Scala
+    - contents: React
     - contents: Frameworks - HTTP4k, Ktor, Spring Boot
     - contents: Bash scripting / Python (Intermediate)
 
@@ -33,7 +34,7 @@ skills:
   - contents: K6, Gatling, Locust IO, Siege, Wrk & Apache ab
   - contents: Security Automation with In-house Java Client to external tools like Nessus, Burp Suite, OWASP ZAP
   - contents: Contrast Testing
-  - contents: Cypress
+  - contents: Cypress, Selenium, Karate, Junit, Kunit
 
 - heading: "Other"
   detail:

@@ -7,17 +7,20 @@ company:
   description: UK Government HMRC going through the largest transformation in Europe
 
   projects:
-    - name: CDAP Upgrade
+    - name: CDAP
       description: A team owning the re-platforming of services and tools as well as managing the cloudera migration.
 
       detail:
-        - contents: Overall auditing of product microservices health, improving code, migrating pipelines from <span class="inactive">Jenkins</span> to <span class="inactive">GitLab</span>.
-        - contents: Working alongside product teams to ensure they are all adhering to new platform standard in terms of security and assisting them in migrating configuration to <strong>Vault</strong>.
-        - contents: Assisting teams with performance testing applications in the new cluster.
-        - contents: Leading the strategy and implementation in ensuring dual running was possible between two clusters, ensuring minimal disruptions.
-        - contents: Setting example with workshops, pairing and spiking new tooling.
-        - contents: Encouraging an <strong>operability</strong> culture.
-        - contents: Improving operability configuring alerting and monitoring with AWS Cloud Watch.
+        - contents: <strong>Cross-Functional Collaboration</strong> - Acted as a development lead within the platform team, aligning engineering efforts with business objectives, ensuring smooth delivery processes, and fostering effective communication across teams to achieve strategic goals.  
+        - contents: <strong>Kotlin Microservices Development</strong> - Built and optimized microservices using <strong>Kotlin (JVM)</strong> to streamline data processing and improve performance.  
+        - contents: <strong>Security & Configuration Management</strong> - Migrated sensitive configurations to <strong>Vault</strong>, ensuring compliance with security standards and access control.  
+        - contents: <strong>Cloud Infrastructure & Monitoring</strong> - Implemented AWS-based monitoring and alerting using <strong>CloudWatch</strong> to enhance system observability and reliability.  
+        - contents: <strong>Performance Optimization</strong> - Improved system performance by refining development practices and enhancing test coverage with automated testing frameworks.  
+        - contents: <strong>Cloud Migration Strategy</strong> - Led Cloudera cloud migration and dual-running strategies to minimize downtime and ensure operational continuity.  
+        - contents: <strong>GitLab CI/CD Automation</strong> - Spearheaded the migration to <strong>GitLab</strong>, leveraging containerization with <strong>Docker</strong> and optimizing CI/CD pipelines to enhance deployment automation, scalability, and efficiency across environments.  
+        - contents: <strong>Training</strong> - Conducted workshops and pairing sessions to upskill teams and drive adoption of best practices.
+
+
 
 - name: John Lewis
   url: https://www.johnlewispartnership.co.uk/about.html
@@ -37,6 +40,7 @@ company:
       description: Led a high-performing team responsible for migrating legacy CRM systems to microservices, ensuring high availability and performance while overseeing cross-functional collaboration and technical execution.
 
       detail:
+        - contents: <strong>Automation</strong> - Managing and owning the automation frameworks in Cypress, Junit and Kunit mixing between java and kotlin applications.
         - contents: <strong>Leading Service Health Audits & Technical Improvements</strong> - Oversaw a comprehensive audit of service health, guiding the team through improving <strong>Kotlin (JVM)</strong> code quality, refining development processes, and strengthening test coverage for increased production stability.
         - contents: <strong>Driving Data Infrastructure Development</strong> - Led the design and implementation of scalable data pipelines in collaboration with data scientists, leveraging <strong>Google Dataflow</strong>, <strong>Cloud Functions</strong>, and <strong>Pub/Sub</strong> to enable real-time customer data processing.
         - contents: <strong>Strategic Data Model In-Housing & Migration</strong> - Defined and executed the migration strategy for bringing data models in-house, ensuring smooth transition without impacting sales conversion, while optimizing internal data architecture.
