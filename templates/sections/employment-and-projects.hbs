@@ -1,36 +1,48 @@
 
-    <div class="skycom-12 alpha">
+    <div class="section">
       <h2>{{title}}</h2>
 
       {{#each company}}
-        <strong>
-          <span class="intro larger skycom-12"><a href="{{url}}" target="_blank">{{name}}</a>, {{location}}</span>
-          <p class="smaller skycom-3 alpha">{{date}}</p>
-          <p class="smaller skycom-9">{{role}}</p>
-        </strong>
-        <p class="alpha">{{description}}</p>
-        {{#each projects}}
-          <strong><p class="smaller skycom-12">Project: {{name}}</p></strong>
-          <p>{{description}}</p>
-          {{#if this.detail}}
-          <ul class="bullet skycom-12">
-            {{#each this.detail}}
-              <li>
-                {{{this.contents}}}
-              </li>
-            {{/each}}
-          </ul>
-          {{/if}}
-        {{/each}}
+        <div class="company-entry">
+          <div class="company-header">
+            {{#if logo}}<img src="{{logo}}" alt="{{name}}" class="company-logo">{{/if}}
+            <div class="company-info">
+              <div class="company-name"><a href="{{url}}" target="_blank">{{name}}</a>, {{location}}</div>
+              <div class="company-meta">
+                <span class="company-date">{{date}}</span>
+                <span class="company-role">{{role}}</span>
+              </div>
+            </div>
+          </div>
+          <p class="company-description">{{description}}</p>
+          {{#each projects}}
+            <div class="project">
+              <strong class="project-name">Project: {{name}}</strong>
+              <p>{{description}}</p>
+              {{#if this.detail}}
+              <ul class="bullet">
+                {{#each this.detail}}
+                  <li>{{{this.contents}}}</li>
+                {{/each}}
+              </ul>
+              {{/if}}
+            </div>
+          {{/each}}
+        </div>
       {{/each}}
     </div>
-    <div class="skycom-12 alpha">
-    <h2>Past Employment</h2>
-    {{#each past-company}}
-    <strong>
-      <span class="smaller skycom-4"><a href="{{url}}" target="_blank">{{name}}</a>, {{location}}</span>
-      <span class="smaller skycom-4">{{date}}</span>
-      <span class="smaller skycom-4">{{role}}</span>
-    </strong>
-    {{/each}}
+    <div class="section">
+      <h2>Past Employment</h2>
+      <div class="past-companies">
+        {{#each past-company}}
+        <div class="past-company-entry">
+          {{#if logo}}<img src="{{logo}}" alt="{{name}}" class="past-company-logo">{{/if}}
+          <div class="past-company-info">
+            <span class="past-company-name"><a href="{{url}}" target="_blank">{{name}}</a>, {{location}}</span>
+            <span class="past-company-date">{{date}}</span>
+            <span class="past-company-role">{{role}}</span>
+          </div>
+        </div>
+        {{/each}}
+      </div>
     </div>

@@ -1,5 +1,50 @@
 company:
+- name: Order Tiger
+  logo: images/logos/ordertiger.png
+  url: https://www.ordertiger.com/
+  location: Remote/London
+  role: "Fractional CTO Consultant"
+  date: "Apr '24 - Current"
+  description: Providing executive-level technology leadership for a growing food and hospitality SaaS platform, driving strategic technology decisions and scaling the product for market expansion
+
+  projects:
+    - name: Ongoing Fractional CTO Engagement
+      description: Acting as fractional CTO, owning the technology vision, architecture decisions, and product roadmap while aligning technical capabilities with business growth objectives.
+
+      detail:
+        - contents: <strong>Technology Vision & Strategy</strong> - Defining and executing the long-term technology roadmap, evaluating build vs buy decisions, and ensuring technical architecture supports business scalability and market expansion goals.
+        - contents: <strong>Product & Engineering Leadership</strong> - Overseeing all aspects of product development across backend, frontend, mobile, and infrastructure, ensuring cohesive delivery and quality standards across all channels.
+        - contents: <strong>Vendor & Partnership Management</strong> - Evaluating and integrating third-party services including payment gateways (RyftPay), delivery platforms, and communication channels, negotiating contracts and ensuring fit-for-purpose solutions.
+        - contents: <strong>Cloud Infrastructure & Cost Optimization</strong> - Managing <strong>AWS</strong> infrastructure strategy, implementing cost-effective scaling solutions, and ensuring platform reliability and security for a growing customer base.
+        - contents: <strong>Stakeholder & Client Engagement</strong> - Representing the technology function in client pitches and partnership discussions, providing technical credibility and translating complex solutions into business value propositions.
+        - contents: <strong>Technical Due Diligence & Quality Assurance</strong> - Conducting architecture reviews, establishing coding standards, and implementing quality processes to reduce technical debt and improve platform stability.
+
+- name: Sainsburys Tech
+  logo: images/logos/sainsburys.png
+  url: https://www.sainsburys.jobs/life-at-sainsburys
+  location: Remote (Security Cleared)
+  role: "Engineering Manager Consultant (via Daemon Solutions)"
+  date: "Feb '25 - Current"
+  description: Leading engineering teams delivering digital transformation across Sainsbury's 1,400+ store estate, managing multi-disciplinary teams and driving strategic technology initiatives that directly impact millions of customer interactions daily
+
+  projects:
+    - name: In-store Digital Content Platform
+      description: Engineering management of a high-visibility retail transformation program, leading cross-functional teams of 12+ engineers while delivering enterprise-scale digital solutions under aggressive timelines and ensuring seamless integration across the UK's third-largest supermarket chain
+
+      detail:
+        - contents: <strong>Engineering Team Leadership & Development</strong> - Managing and developing a team of 12+ software engineers across full-stack, platform, and DevOps disciplines, conducting regular 1:1s, performance reviews, and career progression planning while maintaining high team engagement and productivity during rapid delivery cycles.
+        - contents: <strong>Strategic Program Management</strong> - Owning the technical delivery roadmap for digital content platform rollout across 1,400+ stores, coordinating with senior retail stakeholders, managing cross-team dependencies, and ensuring alignment with Sainsbury's omnichannel strategy and customer experience objectives.
+        - contents: <strong>Budget & Resource Optimization</strong> - Managing engineering budget allocation, contractor procurement, and resource planning decisions, optimizing team composition and cloud infrastructure costs while ensuring successful delivery within retail industry competitive timelines and cost constraints.
+        - contents: <strong>Modern Technology Stack Leadership</strong> - Directed strategic adoption of <strong>Java 21+</strong> and modern development practices, leading architectural decisions, technology evaluations, and implementation standards that improved development velocity by 40% while ensuring enterprise-grade scalability and performance.
+        - contents: <strong>DevOps & Platform Strategy</strong> - Orchestrated the implementation of sophisticated <strong>GitHub Actions</strong> CI/CD pipelines and <strong>Docker</strong> containerization strategies, establishing deployment automation and infrastructure-as-code practices that reduced deployment times by 70% and eliminated production incidents.
+        - contents: <strong>Cloud Infrastructure Management</strong> - Led the design and cost optimization of <strong>AWS</strong> infrastructure architecture, managing multi-environment deployments, capacity planning, and disaster recovery strategies while ensuring 99.99% availability for customer-facing retail systems across peak shopping periods.
+        - contents: <strong>Security & Compliance Leadership</strong> - Implemented enterprise security standards including <strong>HashiCorp Vault</strong> integration for secrets management, ensuring PCI-DSS compliance, data protection regulations adherence, and establishing security-first development practices across all engineering teams.
+        - contents: <strong>Operational Excellence & Monitoring</strong> - Established comprehensive observability frameworks using <strong>New Relic</strong> and <strong>AWS CloudWatch</strong>, implementing SLI/SLO targets, automated alerting, and incident management processes that improved system reliability and reduced MTTR by 60% during critical retail periods.
+        - contents: <strong>Stakeholder Management & Communication</strong> - Regularly presented technical progress and strategic recommendations to C-level executives, retail operations directors, and technology leadership, translating complex technical deliverables into business impact metrics and maintaining transparency across transformation initiatives.
+        - contents: <strong>Engineering Culture & Knowledge Transfer</strong> - Built a collaborative engineering culture through structured mentoring programs, technical workshops, and cross-team pairing sessions, resulting in improved code quality, enhanced team capabilities, and successful knowledge sharing across retail technology domains.
+
 - name: HMRC - CDIO
+  logo: images/logos/hmrc.png
   url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
   location: Remote (Security Cleared)
   role: "Engineering Manager Consultant (Contract via EE)"
@@ -23,6 +68,7 @@ company:
         - contents: <strong>Strategic Roadmap Development - Contributing</strong> to the strategic direction of platform and infrastructure, ensuring engineering initiatives align with long-term business goals, focusing on scalability, security, and performance.
 
 - name: John Lewis
+  logo: images/logos/johnlewis.png
   url: https://www.johnlewispartnership.co.uk/about.html
   location: London
   role: "Lead Engineering Consultant (Contract via EE)"
@@ -54,46 +100,37 @@ company:
         - contents: <strong>Implementing Microservices Architecture for Scalability</strong> - Guided the implementation of a <strong>microservices architecture</strong>, enabling teams to deploy independently and scale with business demands while minimizing downtime.
         - contents: <strong>Cross-Disciplinary Collaboration for Testing & Performance</strong> - Led cross-functional collaboration with central testing and performance teams, ensuring all services adhered to stringent quality standards and performance requirements.
 
+past-company:
 - name: ASOS
+  logo: images/logos/asos.png
   url: http://www.asos.com/about/
   location: London
-  role: "Engineering Consultant (Contract)"
   date: "Mar '18 - Oct '18"
-  description: A dynamic popular website which is growing year on year and looking to tackle the international market with new backend systems and scalable infrastructure backed by MicroSoft Azure. With the aim to turn around over 5000 products every day, globally.
+  role: "Engineering Consultant (Contract)"
 
-  projects:
-    - name: Digital Core Integration
-      description: Working in a dynamic and adapting team, where connecting and integrating systems is the main objective, with high quality, highly available and well tested systems being the ethos that needs to be continued throughout the project.
-      detail:
-        - contents: Embedding <strong>agile</strong> into a large scale project with the ability to change technologies.
-        - contents: Integrating two product systems, leaning on <strong>Azure</strong> products such as Data Storage, Service Bus and Database.
-        - contents: Using a <strong>componentisation pattern</strong> as a way of being re-useable and faster in delivering over 10 interfaces with <span class="inactive">Java 10, Gradle, Jenkins 2, Spring Boot 2</span>
-        - contents: Automating interfaces ensuring the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
-        - contents: Creating a scable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, AKS, Prometheus, Jenkins, Spring Cloud Config)</span>
-        - contents: Strong team player with proficient communication and willingness to help in any situation
-        - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
-        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, VSTS)</span>
-
-past-company:
 - name: Trainline
+  logo: images/logos/trainline.png
   url: https://www.thetrainline.com/about-us
   location: London
   date: "Apr '17 - Mar '18"
   role: "Engineering Consultant (Contract via YLD)"
 
 - name: Channel 4
+  logo: images/logos/channel4.png
   url: https://www.channel4.com/corporate/about-4/who-we-are/about-channel-4
   location: London
   date: "Nov '16 - Apr '17"
   role: "SDET (Contract)"
 
 - name: YOOX Net-A-Porter
+  logo: images/logos/ynap.png
   url: http://www.ynap.com/pages/about-us/
   location: London
   date: "Oct '13 - Nov '16"
   role: "Test Automation Lead / Delivery Manager"
-  
+
 - name: Cancer Research UK
+  logo: images/logos/cruk.png
   url: http://www.cancerresearchuk.org/about-us
   location: London
   date: "Aug '11 - Oct '13"

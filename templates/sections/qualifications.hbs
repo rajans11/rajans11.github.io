@@ -1,11 +1,11 @@
 
-    <div class="skycom-12 alpha">
+    <div class="section">
       <h2>{{title}}</h2>
-      <ul>
+      <ul class="qualifications-list">
         {{#each qualifications}}
-          <li>
-            <span class="skycom-9 alpha">{{{description}}}</span>
-            <strong class="skycom-3">{{date}}</strong>
+          <li class="qualification-item">
+            <span class="qualification-desc">{{{description}}}</span>
+            <strong class="qualification-date">{{date}}</strong>
           </li>
         {{/each}}
       </ul>

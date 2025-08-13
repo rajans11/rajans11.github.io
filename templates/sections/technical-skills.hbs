@@ -1,17 +1,15 @@
-<div class="skycom-12 alpha">
-   <h2>{{title}}</h2>
-   <div class="skycom-container alpha">
-   {{#each skills}}
-		<div class="skycom-3">
-        <strong><p class="smaller skycom-12">{{heading}}</p></strong>
-          <ul class="bullet skycom-12">
-            {{#each this.detail}}
-              <li>
-                {{this.contents}}
-              </li>
-            {{/each}}
-          </ul>
-        </div>
-   {{/each}}
-	</div>
+<div class="section">
+  <h2>{{title}}</h2>
+  <div class="skills-grid">
+    {{#each skills}}
+      <div class="skill-category">
+        <strong class="skill-heading">{{heading}}</strong>
+        <ul class="bullet">
+          {{#each this.detail}}
+            <li>{{this.contents}}</li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/each}}
+  </div>
 </div>

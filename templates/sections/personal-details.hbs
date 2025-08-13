@@ -1,9 +1,9 @@
 
-    <h1 class="heading skycom-12">{{name}}</h1>
-    <ul class="skycom-12 alpha">
-      {{#each details}}
-        <li>
-          {{{this}}}
-        </li>
-      {{/each}}
-    </ul>
+    <header class="personal-header">
+      <h1>{{name}}</h1>
+      <ul class="contact-details">
+        {{#each details}}
+          <li>{{{this}}}</li>
+        {{/each}}
+      </ul>
+    </header>

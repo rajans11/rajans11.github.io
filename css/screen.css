@@ -1,28 +1,368 @@
-body.skycom-container {
-  margin-bottom: 50px;
+/* Modern CV Styles - Flexbox/Grid based */
+
+/* Base */
+* {
+  box-sizing: border-box;
 }
 
+body.cv-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 40px 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Typography */
 h1 {
   text-align: center;
+  font-size: 2.2rem;
+  margin: 0 0 10px;
+  color: #222;
 }
 
 h2 {
-  margin: 20px 0;
-}
-
-p:last-of-type {
-  margin-bottom: 0px;
-}
-
-ul.bullet {
-  list-style-type: disc;
-  margin-bottom: 16px;
-}
-
-ul.project {
-  margin: 0 0 0.5em 0;
+  font-size: 1.4rem;
+  margin: 30px 0 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #333;
+  color: #222;
 }
 
 p {
-  margin: 0.5em 0
+  margin: 0.5em 0;
+}
+
+/* Personal Header */
+.personal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 20px;
+  font-size: 0.95rem;
+}
+
+.contact-details li {
+  display: inline;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 25px;
+}
+
+/* Company / Employment Styles */
+.company-entry {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.company-entry:last-child {
+  border-bottom: none;
+}
+
+.company-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  max-width: 120px;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.company-info {
+  flex: 1;
+}
+
+.company-name {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.company-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.company-date {
+  font-weight: 500;
+}
+
+.company-role {
+  color: #666;
+}
+
+.company-description {
+  margin: 10px 0;
+  color: #444;
+}
+
+/* Projects */
+.project {
+  margin: 15px 0 15px 0;
+}
+
+.project-name {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Bullet Lists */
+ul.bullet {
+  list-style-type: disc;
+  margin: 10px 0 16px 20px;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+ul.bullet li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+ul.bullet li strong {
+  font-size: 0.9rem;
+}
+
+/* Past Employment */
+.past-companies {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.past-company-entry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.past-company-entry:last-child {
+  border-bottom: none;
+}
+
+.past-company-logo {
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.past-company-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 20px;
+  flex: 1;
+  font-size: 0.95rem;
+}
+
+.past-company-name {
+  font-weight: 500;
+  min-width: 200px;
+}
+
+.past-company-date {
+  color: #666;
+  min-width: 120px;
+}
+
+.past-company-role {
+  color: #555;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-category {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.skill-heading {
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.skill-category ul.bullet {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.skill-category ul.bullet li {
+  margin-bottom: 4px;
+}
+
+/* Qualifications */
+.qualifications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qualification-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.qualification-item:last-child {
+  border-bottom: none;
+}
+
+.qualification-desc {
+  flex: 1;
+}
+
+.qualification-date {
+  flex-shrink: 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Inactive/Secondary text */
+.inactive {
+  color: #888;
+}
+
+/* Print Button */
+.print-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 12px 24px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background 0.2s;
+}
+
+.print-btn:hover {
+  background: #000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body.cv-container {
+    padding: 15px 20px 40px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .company-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .company-logo {
+    max-width: 80px;
+    max-height: 40px;
+  }
+
+  .company-meta {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .past-company-info {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .qualification-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media print {
+  .print-btn {
+    display: none;
+  }
+
+  body.cv-container {
+    max-width: 100%;
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  h1 {
+    font-size: 18pt;
+  }
+
+  h2 {
+    font-size: 14pt;
+    margin: 20px 0 10px;
+    page-break-after: avoid;
+  }
+
+  .company-entry {
+    page-break-inside: avoid;
+  }
+
+  .company-logo {
+    max-width: 80px;
+    max-height: 30px;
+  }
+
+  .past-company-logo {
+    max-width: 50px;
+    max-height: 20px;
+  }
+
+  a {
+    color: inherit;
+  }
 }

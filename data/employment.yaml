@@ -1,5 +1,26 @@
 company:
+- name: Sainsbury's Tech
+  logo: images/logos/sainsburys.png
+  url: https://www.sainsburys.jobs/life-at-sainsburys
+  location: London (Hybrid)
+  role: "Engineering Lead Consultant (via Daemon Solutions)"
+  date: "Feb '25 - Current"
+  description: Leading the technical delivery of a digital content platform rollout across Sainsbury's 1,400+ physical stores
+
+  projects:
+    - name: In-store Digital Content Platform
+      description: Content delivery across all of the Sainsbury's estate to manage paid and unpaid content/adverts
+
+      detail:
+        - contents: <strong>Technical Leadership & Architecture</strong> - Leading engineering strategy and architectural decisions for a high-availability platform serving 1,400+ stores, defining technical standards, code review processes, and ensuring alignment between business objectives and engineering delivery across multiple development teams.
+        - contents: <strong>Modern Java Development</strong> - Architected and developed high-performance microservices using <strong>Java 21+</strong> with modern language features, implementing reactive programming patterns and leveraging virtual threads for improved concurrency and resource utilization in cloud environments.
+        - contents: <strong>AWS Cloud Infrastructure Leadership</strong> - Designed and implemented scalable <strong>AWS</strong> infrastructure using services including S3, Lambda, establishing infrastructure-as-code practices and ensuring cost optimization while maintaining enterprise-grade performance and availability.
+        - contents: <strong>CI/CD Pipeline Engineering</strong> - Implementation of <strong>GitHub Actions</strong> workflows, establishing automated testing, security scanning, and deployment pipelines with blue-green deployment strategies.
+        - contents: <strong>Observability & Performance Engineering</strong> - Implemented comprehensive monitoring and alerting solutions using <strong>New Relic</strong>, establishing custom dashboards and proactive alerting that improved system reliability.
+        - contents: <strong>Team Leadership & Mentorship</strong> - Mentored junior and mid-level engineers through code reviews, architectural discussions, and hands-on pairing sessions, while establishing engineering best practices, coding standards, and knowledge-sharing processes that improved team velocity and code quality.
+
 - name: HMRC - CDIO
+  logo: images/logos/hmrc.png
   url: https://www.civil-service-careers.gov.uk/hmrc-digital-cdio/
   location: Remote (Security Cleared)
   role: "Senior Engineering Consultant (Contract via EE)"
@@ -23,6 +44,7 @@ company:
 
 
 - name: John Lewis
+  logo: images/logos/johnlewis.png
   url: https://www.johnlewispartnership.co.uk/about.html
   location: London
   role: "Lead Engineering Consultant (Contract via EE)"
@@ -55,46 +77,37 @@ company:
         - contents: <strong>Implementing Microservices Architecture for Scalability</strong> - Guided the implementation of a <strong>microservices architecture</strong>, enabling teams to deploy independently and scale with business demands while minimizing downtime.
         - contents: <strong>Cross-Disciplinary Collaboration for Testing & Performance</strong> - Led cross-functional collaboration with central testing and performance teams, ensuring all services adhered to stringent quality standards and performance requirements.
 
+past-company:
 - name: ASOS
+  logo: images/logos/asos.png
   url: http://www.asos.com/about/
   location: London
-  role: "Engineering Consultant (Contract)"
   date: "Mar '18 - Oct '18"
-  description: A dynamic popular website which is growing year on year and looking to tackle the international market with new backend systems and scalable infrastructure backed by MicroSoft Azure. With the aim to turn around over 5000 products every day, globally.
+  role: "Engineering Consultant (Contract)"
 
-  projects:
-    - name: Digital Core Integration
-      description: Working in a dynamic and adapting team, where connecting and integrating systems is the main objective, with high quality, highly available and well tested systems being the ethos that needs to be continued throughout the project.
-      detail:
-        - contents: Embedding <strong>agile</strong> into a large scale project with the ability to change technologies.
-        - contents: Integrating two product systems, leaning on <strong>Azure</strong> products such as Data Storage, Service Bus and Database.
-        - contents: Using a <strong>componentisation pattern</strong> as a way of being re-useable and faster in delivering over 10 interfaces with <span class="inactive">Java 10, Gradle, Jenkins 2, Spring Boot 2</span>
-        - contents: Automating interfaces ensuring the integration of systems and services are connected whilst providing business value. <span class="inactive">Java 10, Gradle, Cucumber</span>
-        - contents: Creating a scalable ecosystem of components which are easily deployable and portable using <strong>IAAS</strong><span class="inactive"> (Kubernetes, AKS, Prometheus, Jenkins, Spring Cloud Config)</span>
-        - contents: Strong team player with proficient communication and willingness to help in any situation
-        - contents: Working closely central testing and performance teams to ensure standards were kept and knowledge sharing was transparent.
-        - contents: Good experience with version control tools and how development teams can manage processes with it <span class="inactive">(Git, VSTS)</span>
-
-past-company:
 - name: Trainline
+  logo: images/logos/trainline.png
   url: https://www.thetrainline.com/about-us
   location: London
   date: "Apr '17 - Mar '18"
   role: "Engineering Consultant (Contract via YLD)"
 
 - name: Channel 4
+  logo: images/logos/channel4.png
   url: https://www.channel4.com/corporate/about-4/who-we-are/about-channel-4
   location: London
   date: "Nov '16 - Apr '17"
   role: "SDET (Contract)"
 
 - name: YOOX Net-A-Porter
+  logo: images/logos/ynap.png
   url: http://www.ynap.com/pages/about-us/
   location: London
   date: "Oct '13 - Nov '16"
   role: "Test Automation Lead / Delivery Manager"
-  
+
 - name: Cancer Research UK
+  logo: images/logos/cruk.png
   url: http://www.cancerresearchuk.org/about-us
   location: London
   date: "Aug '11 - Oct '13"

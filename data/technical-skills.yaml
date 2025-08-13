@@ -4,11 +4,11 @@ skills:
     - contents: JVM based - Kotlin, Java, Scala
     - contents: React
     - contents: Frameworks - HTTP4k, Ktor, Spring Boot
-    - contents: Bash scripting / Python (Intermediate)
+    - contents: Bash scripting / Python
 
 - heading: "Deploying & Cloud"
   detail:
-  - contents: Azure / Google Cloud Services
+  - contents: Azure / Google Cloud Services / AWS
   - contents: Docker
   - contents: Kubernetes, Helm
 
@@ -19,14 +19,14 @@ skills:
 
 - heading: "Build / Build Tools / Development"
   detail:
-  - contents: GitLab, Jenkins
+  - contents: GitLab, GitHub Actions, Jenkins
   - contents: Gradle, Maven, WebPack
   - contents: Git, GitFlow
 
 - heading: "Logging & Monitoring"
   detail:
   - contents: ELK - Elastic Search / Kibana, Grafana, AlertManager
-  - contents: New Relic, App Dynamics, Splunk, Kibana, Prometheus
+  - contents: New Relic, Splunk, Kibana, Prometheus
   
 - heading: "Testing"
   detail:

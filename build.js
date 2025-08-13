@@ -14,7 +14,7 @@ const loadYamlFiles = (role = 'developer') => {
   ];
 
   const roleYamlFile = role === 'manager'
-    ? './data/employment-engineering-manager.yaml'
+    ? './data/employment-manager.yaml'
     : './data/employment.yaml';
 
   const allYamlFiles = [...baseYamlFiles, roleYamlFile];
