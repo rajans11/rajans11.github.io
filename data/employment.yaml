@@ -1,10 +1,28 @@
 company:
+- name: Marks & Spencer
+  logo: images/logos/mns.png
+  url: https://corporate.marksandspencer.com/about-us
+  location: London (Hybrid)
+  role: "Senior Engineering Consultant (Contract via EE)"
+  date: "March '26 - Current"
+  description: Providing tactical and strategic solutions for Online within the Operating Securely Programme
+  projects:
+    - name: Operating Securely
+      description: Secure-by-design platform engineering and AI-augmented delivery across the M&S estate, spanning cloud infrastructure, CI/CD pipelines, and automated application security
+      detail:
+        - contents: <strong>AI-Assisted Engineering & Copilot Adoption</strong> - Championed <strong>GitHub Copilot</strong> and AI-assisted workflows across teams, building reusable prompt libraries and AI skills rolled out portfolio-wide to boost delivery velocity and code consistency.
+        - contents: <strong>Automated Security Tooling</strong> - Built automated, AI-augmented security workflows using <strong>Wiz</strong>, <strong>Snyk</strong>, and <strong>Semgrep</strong> for cloud posture, vulnerability, and static code scanning, with AI-assisted triage to cut mean-time-to-fix.
+        - contents: <strong>Strategic Reporting & Dashboards</strong> - Built executive-facing dashboards tracking security posture and platform health, translating technical risk into clear metrics for senior stakeholders.
+        - contents: <strong>Technical Leadership & Architecture</strong> - Led strategic and architectural decisions for a high-availability platform serving 1,400+ stores, defining technical standards within a centralised engineering team.
+        - contents: <strong>Azure Cloud & Platform Engineering</strong> - Designed scalable <strong>Azure</strong> infrastructure and networking (VNets, App Services, Functions, Storage) aligned with M&S platform practices and IaC standards.
+        - contents: <strong>Secure CI/CD Pipeline Engineering</strong> - Hardened <strong>GitHub Actions</strong> pipelines with automated security gates (Wiz, Snyk, Semgrep), shifting security left and enforcing policy-as-code.
+        - contents: <strong>Demos, Comms & Data Classification</strong> - Led demos and technical showcases for leadership and stakeholders, and contributed to data classification standards supporting secure handling and compliance.
 - name: Sainsbury's Tech
   logo: images/logos/sainsburys.png
   url: https://www.sainsburys.jobs/life-at-sainsburys
   location: London (Hybrid)
   role: "Engineering Lead Consultant (via Daemon Solutions)"
-  date: "Feb '25 - Current"
+  date: "Feb '25 - March '26"
   description: Leading the technical delivery of a digital content platform rollout across Sainsbury's 1,400+ physical stores
 
   projects:
